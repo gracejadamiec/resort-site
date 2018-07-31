@@ -1,0 +1,11 @@
+/* eggplant = #581845. maroon= #900C3F. magenta=#C70039. orange=#FF5733
+yellow=#FFC300. light green=#DAF7A6. */
+
+h2 {
+  color: #fff;
+}
+
+.nav {
+  background: #DAF7A6;
+  color: #000;
+}
