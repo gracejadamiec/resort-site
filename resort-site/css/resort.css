@@ -1,9 +1,9 @@
 /* eggplant = #581845. maroon= #900C3F. magenta=#C70039. orange=#FF5733
 yellow=#FFC300. light green=#DAF7A6. */
 body{
-  background-color:#FF5733;
   margin: 0;
   padding: 0;
+  background-color:#FF5733;
 }
 
 h2 {
@@ -12,16 +12,40 @@ h2 {
 
 
 p{
-  text-align: justify;
+  text-align: left;
   text-decoration-style: wavy;
+  font-size: 21px;
+  font-family: sans-serif;
+  color: #581845;
 }
 
+.container {
+  max-width: 1500px;
+}
+
+.pic {
+  width: 100%;
+  height: 600px;
+  background-image:url("auckland.jpg");
+  background-repeat-y: no repeat;
+  padding: 0;
+  margin: 0;
+}
+
+.pic h1 {
+  position: absolute;
+  left: 25%;
+  top: 15%;
+  transform: translate(-50%, -50%);
+}
 .nav {
   background: #DAF7A6;
   color: #000;
   display: inline-block;
   width: 100%;
   height: 70px;
+  padding: 0;
+  margin: 0;
 }
 
 .nav ul {
