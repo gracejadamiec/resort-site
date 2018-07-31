@@ -37,6 +37,8 @@ p{
   left: 25%;
   top: 15%;
   transform: translate(-50%, -50%);
+  font-family: monospace;
+  color: #fff;
 }
 .nav {
   background: #DAF7A6;
